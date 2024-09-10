@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Souad Elgunaoui Portfolio</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="Free Website Template" name="keywords">
+        <meta content="Free Website Template" name="description">
+
+        <!-- Favicon -->
+        <link href="img/favicon.ico" rel="icon">
+
+        <!-- Google Font -->
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+        <!-- CSS Libraries -->
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+        <link href="lib/animate/animate.min.css" rel="stylesheet">
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="pre-header-top container-fluid">
+            <div class="header-top__left">
+                <div class="header-top_adress-link">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 10 10" fill="none">
+                        <path d="M4.99971 0C2.96277 0 1.30566 1.65711 1.30566 3.69405C1.30566 4.36462 1.6064 5.08583 1.61901 5.11625C1.71614 5.34681 1.90779 5.70491 2.04599 5.91482L4.57881 9.7525C4.68246 9.90982 4.83587 10 4.99971 10C5.16355 10 5.31696 9.90982 5.42061 9.75272L7.95364 5.91482C8.09206 5.70491 8.2835 5.34681 8.38063 5.11625C8.39323 5.08605 8.69376 4.36484 8.69376 3.69405C8.69376 1.65711 7.03665 0 4.99971 0ZM7.97994 4.94763C7.89323 5.15428 7.71483 5.4874 7.59076 5.67558L5.05773 9.51347C5.00775 9.58931 4.99189 9.58931 4.94191 9.51347L2.40888 5.67558C2.2848 5.4874 2.1064 5.15406 2.0197 4.94741C2.01601 4.9385 1.74026 4.27466 1.74026 3.69405C1.74026 1.89678 3.20245 0.434594 4.99971 0.434594C6.79697 0.434594 8.25916 1.89678 8.25916 3.69405C8.25916 4.27553 7.98276 4.94111 7.97994 4.94763Z" fill="#3E4B3E"></path>
+                        <path d="M4.99962 1.73877C3.92117 1.73877 3.04395 2.61621 3.04395 3.69444C3.04395 4.77267 3.92117 5.65011 4.99962 5.65011C6.07806 5.65011 6.95529 4.77267 6.95529 3.69444C6.95529 2.61621 6.07806 1.73877 4.99962 1.73877ZM4.99962 5.21552C4.16107 5.21552 3.47854 4.53321 3.47854 3.69444C3.47854 2.85567 4.16107 2.17336 4.99962 2.17336C5.83817 2.17336 6.52069 2.85567 6.52069 3.69444C6.52069 4.53321 5.83817 5.21552 4.99962 5.21552Z" fill="#3E4B3E"></path>
+                    </svg>
+                    <a href="https://www.google.com/maps/search/N+99,+HAY+NAHDA+01,+TEMARA,+MOROCCO/@33.9264684,-6.911186,17z/data=!3m1!4b1?entry=ttu&g_ep=EgoyMDI0MDkwMy4wIKXMDSoASAFQAw%3D%3D">N 99, HAY NAHDA 01, TEMARA, MOROCCO</a>
+                </div>
+                <div class="header-top_phone-number">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 10 10" fill="none">
+                        <path d="M9.74149 7.63429C9.73329 7.62447 8.21384 6.21696 8.20428 6.20737C7.74205 5.86564 7.08672 5.94326 6.72058 6.38269C5.94298 7.33784 4.18217 5.55536 3.48813 4.40704C3.12222 3.60848 3.63409 3.29731 3.67758 3.2585C4.286 2.70241 4.07993 2.08208 3.8775 1.82199L2.48784 0.274393C1.60163 -0.595321 0.461075 0.856582 0.302595 1.1247C-1.02627 3.15723 2.4357 6.75743 2.71099 7.04541C2.85991 7.22385 6.73333 11.007 8.79311 9.74154C9.05998 9.60101 10.602 8.53746 9.74172 7.63451L9.74149 7.63429ZM9.62605 8.31841C9.55432 8.78751 8.86598 9.28337 8.60663 9.43483C6.75815 10.5136 3.201 7.02421 2.98286 6.8074C2.93049 6.75364 -0.580658 3.15299 0.608625 1.31832C0.771887 1.07072 1.30129 0.41626 1.78425 0.362725C1.94796 0.345103 2.11054 0.403322 2.22394 0.520206L3.5947 2.04661C3.6309 2.09479 3.93215 2.52775 3.43941 2.98793C3.16207 3.17351 2.76495 3.72448 3.16207 4.56653C3.31963 4.83621 3.50088 5.09184 3.70377 5.33074C4.16418 5.93055 4.73958 6.43667 5.39786 6.82078C6.23239 7.2359 6.80847 6.8674 7.00771 6.60263C7.49681 6.13755 7.92671 6.44716 7.96337 6.47504L9.47576 7.87876C9.59348 7.99408 9.64904 8.15692 9.62582 8.31841H9.62605Z" fill="#3E4B3E"></path>
+                    </svg>
+                    <a href="tel:+212 682-727545">+212 682-727545</a>
+                </div>
+            </div>
+            <div class="header-top__right">
+                <div class="header-top_btn-contact"><a class="header-top_btn-contact-link btn" href="mailto:souadelgunaoui@gmail.com">Contact Me</a></div>
+            </div>
+        </div>
+        <!-- Nav Bar Start -->
+        <div class="navbar navbar-expand-lg bg-light navbar-light">
+            <div class="container-fluid">
+                <a href="index.html" class="navbar-brand">S.ELG</a>
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                    <div class="navbar-nav ml-auto">
+                        <a href="#home" class="nav-item nav-link active">Home</a>
+                            <a href="#about" class="nav-item nav-link">About me</a>
+                            <a href="#service" class="nav-item nav-link">Service</a>
+                            <a href="#experience" class="nav-item nav-link">Experience</a>
+                            <a href="#portfolio" class="nav-item nav-link">Portfolio</a>
+                            <a href="#contact" class="nav-item nav-link">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Nav Bar End -->
+
+
+        <!-- Hero Start -->
+        <div class="hero" id="home">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-sm-12 col-md-6">
+                        <div class="hero-content">
+                            <div class="hero-text">
+                                <p>I am</p>
+                                <h1>Souad Elgunaoui</h1>
+                                <h2></h2>
+                                <div class="typed-text">Web Project Manager, Wordpress Developer,  Web Developer, Apps Developer</div>
+                            </div>
+                            <div class="hero-btn">
+                                <a class="btn" href="cv/Souad Elgunaoui CV En.pdf" target="_blank"> Download CV</a>
+                                <a class="btn" href="mailto:souadelgunaoui@gmail.com">Contact Me</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 d-none d-md-block">
+                        <div class="hero-image">
+                            <img src="img/me-hero-v2.png" alt="Hero Image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Hero End -->
+
+
+        <!-- About Start -->
+        <div class="about wow fadeInUp" data-wow-delay="0.1s" id="about">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <div class="about-img">
+                            <img src="img/m2.jpg" alt="Image">
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="about-content">
+                            <div class="section-header text-left">
+                                <p>Learn About Me</p>
+                                <h2>2 Years Experience</h2>
+                            </div>
+                            <div class="about-text">
+                                <p>
+                                    Passionate web project manager and experienced WordPress developer, I transform ideas into engaging digital experiences. With deep expertise in creating and customizing WordPress sites, I strive to make the web more accessible and functional. My collaborative approach and leadership enable me to effectively guide technical teams to successfully complete ambitious projects, always putting the clients' needs at the heart of my work. I enjoy the challenge of finding creative solutions to complex problems and am always enthusiastic about learning and evolving in the field of web development.                                </p>
+                            </div>
+                            <div class="skills">
+                                <div class="skill-name">
+                                    <p>Web Project Management</p><p>95%</p>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                                <div class="skill-name">
+                                    <p>Web Development</p><p>80%</p>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                                <div class="skill-name">
+                                    <p>Apps Development</p><p>70%</p>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <a class="btn" href="cv/Souad Elgunaoui CV En.pdf" target="_blank">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+        
+        
+        <!-- Service Start -->
+        <div class="service" id="service">
+            <div class="container">
+                <div class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
+                    <p>What I do</p>
+                    <h2>Awesome Quality Services</h2>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.0s">
+                        <div class="service-item">
+                            <div class="service-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#EF233C" class="size-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5m-9-6h.008v.008H12v-.008ZM12 15h.008v.008H12V15Zm0 2.25h.008v.008H12v-.008ZM9.75 15h.008v.008H9.75V15Zm0 2.25h.008v.008H9.75v-.008ZM7.5 15h.008v.008H7.5V15Zm0 2.25h.008v.008H7.5v-.008Zm6.75-4.5h.008v.008h-.008v-.008Zm0 2.25h.008v.008h-.008V15Zm0 2.25h.008v.008h-.008v-.008Zm2.25-4.5h.008v.008H16.5v-.008Zm0 2.25h.008v.008H16.5V15Z" />
+                                </svg>
+                            </div>
+                            <div class="service-text">
+                                <h3>Web Management</h3>
+                                <p>
+                                    Experienced in overseeing the end-to-end development of web projects, from initial planning and client communication to delivery and post-launch optimization. Skilled in agile methodologies, project coordination, and cross-functional team management to ensure timely and efficient project completion while maintaining a high standard of quality.                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="service-item">
+                            <div class="service-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#EF233C" class="size-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 6.75 22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3-4.5 16.5" />
+                                  </svg>
+                                  
+                            </div>
+                            <div class="service-text">
+                                <h3>Web Development</h3>
+                                <p>
+                                    Proficient in developing responsive and user-friendly websites using HTML, CSS, JavaScript, React, and WordPress. Passionate about creating engaging digital experiences that meet both user needs and business goals. Strong focus on clean code, performance optimization, and accessibility standards                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="service-item">
+                            <div class="service-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#EF233C" class="size-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="m6.75 7.5 3 2.25-3 2.25m4.5 0h3m-9 8.25h13.5A2.25 2.25 0 0 0 21 18V6a2.25 2.25 0 0 0-2.25-2.25H5.25A2.25 2.25 0 0 0 3 6v12a2.25 2.25 0 0 0 2.25 2.25Z" />
+                                </svg>
+                            </div>
+                            <div class="service-text">
+                                <h3>Apps Development</h3>
+                                <p>
+                                    Specialized in designing and developing mobile and web applications with a focus on user experience, functionality, and performance. Experienced in working with technologies like Java, React Native,  to build scalable and secure applications that drive user engagement and satisfaction                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Service End -->
+        
+        
+         <!-- Experience Start -->
+        <div class="experience" id="experience">
+            <div class="container">
+                <header class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
+                    <p>My Resume</p>
+                    <h2>Working Experience</h2>
+                </header>
+                <div class="timeline">
+                    <div class="timeline-item right wow slideInRight" data-wow-delay="0.1s">
+                        <div class="timeline-text">
+                            <div class="timeline-date">2023 - Present</div>
+                            <h2>Web Project Manager</h2>
+                            <h4>2C Solution, Rabat</h4>
+                            <p>
+                                Led web projects from conception to deployment, ensuring timely delivery and client satisfaction.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="timeline-item left wow slideInLeft" data-wow-delay="0.1s">
+                        <div class="timeline-text">
+                            <div class="timeline-date">2023</div>
+                            <h2>Web Developer - Wordpress</h2>
+                            <h4>2C Solution, Rabat</h4>
+                            <p>
+                                Developed and customized WordPress sites to meet client needs, focusing on performance and user experience.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="timeline-item right wow slideInRight" data-wow-delay="0.1s">
+                        <div class="timeline-text">
+                            <div class="timeline-date">2022 - 2023</div>
+                            <h2>Web Developer - Internship</h2>
+                            <h4>2C Solution, Rabat</h4>
+                            <p>
+                                Assisted in the development of web applications and gained hands-on experience in coding.                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Job Experience End -->
+
+
+
+        <!-- Portfolio Start -->
+        <div class="portfolio" id="portfolio">
+            <div class="container">
+                <div class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
+                    <p>My Portfolio</p>
+                    <h2>My Excellent Portfolio</h2>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <ul id="portfolio-filter">
+                            <li data-filter="*" class="filter-active">All</li>
+                            <li data-filter=".filter-1">Web Developement</li>
+                            <li data-filter=".filter-2">Wordpress Development</li>
+                            <li data-filter=".filter-3">Project Management</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row portfolio-container">
+                    <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-1 wow fadeInUp" data-wow-delay="0.0s">
+                        <div class="portfolio-wrap">
+                            <div class="portfolio-img">
+                                <img src="img/Image_-_E-Commerce_Website_.jpeg.webp" alt="Image">
+                            </div>
+                            <div class="portfolio-text">
+                                <h3>eCommerce Website</h3>
+                                <a class="btn" href="img/Image_-_E-Commerce_Website_.jpeg.webp" data-lightbox="portfolio">+</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-1 wow fadeInUp" data-wow-delay="0.0s">
+                        <div class="portfolio-wrap">
+                            <div class="portfolio-img">
+                                <img src="img/Globally-Best-Websites-That-Use-PHP.jpg" alt="Image">
+                            </div>
+                            <div class="portfolio-text">
+                                <h3>Php Websites</h3>
+                                <a class="btn" href="img/Globally-Best-Websites-That-Use-PHP.jpg" data-lightbox="portfolio">+</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-1 wow fadeInUp" data-wow-delay="0.0s">
+                        <div class="portfolio-wrap">
+                            <div class="portfolio-img">
+                                <img src="img/boldbi-solution-overview-banner-dashboard.png" alt="Image">
+                            </div>
+                            <div class="portfolio-text">
+                                <h3>Admin Dashboard</h3>
+                                <a class="btn" href="img/boldbi-solution-overview-banner-dashboard.png" data-lightbox="portfolio">+</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-2 wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="portfolio-wrap">
+                            <div class="portfolio-img">
+                                <img src="img/portfolio-2.jpg" alt="Image">
+                            </div>
+                            <div class="portfolio-text">
+                                <h3>Product Landing Page</h3>
+                                <a class="btn" href="img/portfolio-2.jpg" data-lightbox="portfolio">+</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-2 wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="portfolio-wrap">
+                            <div class="portfolio-img">
+                                <img src="img/wordpress-admin-dashboard-a-complete-guide.jpg" alt="Image">
+                            </div>
+                            <div class="portfolio-text">
+                                <h3>Wordpress Dashboard</h3>
+                                <a class="btn" href="img/wordpress-admin-dashboard-a-complete-guide.jpg" data-lightbox="portfolio">+</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-1 wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="portfolio-wrap">
+                            <div class="portfolio-img">
+                                <img src="img/1_hVSGnynTRxCYgDuJPzSMjg.png" alt="Image">
+                            </div>
+                            <div class="portfolio-text">
+                                <h3>JavaScript quiz game</h3>
+                                <a class="btn" href="img/1_hVSGnynTRxCYgDuJPzSMjg.png" data-lightbox="portfolio">+</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-1 wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="portfolio-wrap">
+                            <div class="portfolio-img">
+                                <img src="img/Web-Development-with-JavaScript-1024x691.png" alt="Image">
+                            </div>
+                            <div class="portfolio-text">
+                                <h3>JavaScript Applications</h3>
+                                <a class="btn" href="img/Web-Development-with-JavaScript-1024x691.png" data-lightbox="portfolio">+</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-2 wow fadeInUp" data-wow-delay="0.8s">
+                        <div class="portfolio-wrap">
+                            <div class="portfolio-img">
+                                <img src="img/Wordpress-commercial-real-estate.jpg" alt="Image">
+                            </div>
+                            <div class="portfolio-text">
+                                <h3>Wordpress Websites</h3>
+                                <a class="btn" href="img/Wordpress-commercial-real-estate.jpg" data-lightbox="portfolio">+</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-3 wow fadeInUp" data-wow-delay="1s">
+                        <div class="portfolio-wrap">
+                            <div class="portfolio-img">
+                                <img src="img/business-team-working-new-business-plan-with-modern-digital-computer-top-view-shot-2048x1365.jpg" alt="Image">
+                            </div>
+                            <div class="portfolio-text">
+                                <h3>Project Monitoring</h3>
+                                <a class="btn" href="img/business-team-working-new-business-plan-with-modern-digital-computer-top-view-shot-2048x1365.jpg" data-lightbox="portfolio">+</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-3 wow fadeInUp" data-wow-delay="1s">
+                        <div class="portfolio-wrap">
+                            <div class="portfolio-img">
+                                <img src="img/Business-Systemisation.jpg" alt="Image">
+                            </div>
+                            <div class="portfolio-text">
+                                <h3>Quality Management</h3>
+                                <a class="btn" href="img/Business-Systemisation.jpg" data-lightbox="portfolio">+</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-3 wow fadeInUp" data-wow-delay="1s">
+                        <div class="portfolio-wrap">
+                            <div class="portfolio-img">
+                                <img src="img/testing.jpg" alt="Image">
+                            </div>
+                            <div class="portfolio-text">
+                                <h3>Testing</h3>
+                                <a class="btn" href="img/testing.jpg" data-lightbox="portfolio">+</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-3 wow fadeInUp" data-wow-delay="1s">
+                        <div class="portfolio-wrap">
+                            <div class="portfolio-img">
+                                <img src="img/presentation.jpg" alt="Image">
+                            </div>
+                            <div class="portfolio-text">
+                                <h3>Reporting & Presentation</h3>
+                                <a class="btn" href="img/presentation.jpg" data-lightbox="portfolio">+</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio End -->
+
+           
+        <!-- Contact Start -->
+  
+        <div class="contact wow fadeInUp" data-wow-delay="0.1s" id="contact">        
+            <div class="container-fluid">
+                <div class="container">
+                        <div class="">
+                            <h2>Contact Me !</h2>
+                                <div class="control-group">
+                                    <div class="contact-me_text">
+                                        <p>I’m always open to discussing new projects, ideas, or opportunities. Whether you have a question, a potential collaboration in mind, or just want to say hello, feel free to reach out! </p> 
+                                        <a class="btn" href="mailto:souadelgunaoui@gmail.com">Contact Me</a>
+                                    </div>
+                                </div>
+                        </div>
+  
+                </div>
+            </div>
+        </div>
+        <!-- Contact End -->
+         
+
+        <!-- Footer Start -->
+        <div class="footer wow fadeIn" data-wow-delay="0.3s">
+            <div class="container-fluid">
+                <div class="container">
+                    <div class="footer-info">
+                        <a href="index.html" class="navbar-brand"> <h2>S.ELG</h2></a>
+                        <div class="header-top_adress-link">
+                            <a href="https://www.google.com/maps/search/N+99,+HAY+NAHDA+01,+TEMARA,+MOROCCO/@33.9264684,-6.911186,17z/data=!3m1!4b1?entry=ttu&g_ep=EgoyMDI0MDkwMy4wIKXMDSoASAFQAw%3D%3D">N 99, HAY NAHDA 01, TEMARA, MOROCCO</a>
+                        </div>
+                        <div class="footer-menu">
+                            <a href="tel:+1234567890">+212 682-727545</a>
+                            <a class="footer-mail" href="mailto:souadelgunaoui@gmail.com">souadelgunaoui@gmail.com</a>
+                        </div>
+                        <div class="footer-social">
+                            <a href=""><i class="fab fa-twitter"></i></a>
+                            <a href=""><i class="fab fa-facebook-f"></i></a>
+                            <a href=""><i class="fab fa-youtube"></i></a>
+                            <a href=""><i class="fab fa-instagram"></i></a>
+                            <a href=""><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="container copyright">
+                    <p>&copy; <a href="mailto:souadelgunaoui@gmail.com">Souad Elgunaoui</a>, All Right Reserved</a></p>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+        <!-- Contact mobile btn -->
+        <div class="mobile__contact">
+            <div class="mobile__contact-btn"><a class="btn-contact-link btn" href="">Contact Me</a></div>
+        </div>
+        
+        <!-- Back to top button -->
+        <a href="#" class="btn back-to-top"><i class="fa fa-chevron-up"></i></a>
+        
+        
+        <!-- Pre Loader -->
+        <div id="loader" class="show">
+            <div class="loader"></div>
+        </div>
+
+        
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/typed/typed.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/isotope/isotope.pkgd.min.js"></script>
+        <script src="lib/lightbox/js/lightbox.min.js"></script>
+        
+        <!-- Contact Javascript File -->
+        <script src="mail/jqBootstrapValidation.min.js"></script>
+        <script src="mail/contact.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+    </body>
+</html>
